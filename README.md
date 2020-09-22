@@ -17,7 +17,7 @@ Google App Script example for Withings API using [gsuitedevs/apps-script-oauth2]
     * After that, you will see weight information in the log.
   
 ## Get other information
-* Set `MEASTYPE`:  [Withings API | Measure](https://developer.withings.com/oauth2/#tag/measure)
+* Set `MEASTYPES`:  [Withings API | Measure](https://developer.withings.com/oauth2/#tag/measure)
     * 1: Weight, 6: Fat Ratio, 88: Bone Mass, etc...
 
 ## Change period to get information
