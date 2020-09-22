@@ -1,3 +1,9 @@
+// How to use
+// 1: Set CLIENT_ID and CLIENT_SECRET
+// 2: Run `run` function. Go View->Log. You will see URL for authentication.
+// 3: Open the URL by the browser and authenticate.
+// 4: Re-run `run`. Go View->Log. Now you can see your weight information.
+
 // Register as Withings API partner at https://account.withings.com/partner/add_oauth2
 // and get client id and client (consumer) secret.
 // At the registration, set callback function like
