@@ -12,9 +12,9 @@
 var CLIENT_ID = '...';
 var CLIENT_SECRET = '...';
 
-// Set MEASTYPE what you want. 1 is Weight (kg).
+// Set MEASTYPES what you want as comma separated list. 1 is Weight (kg), 6 is fat ratio (%).
 // To get other variables, refer https://developer.withings.com/oauth2/#tag/measure
-var MEASTYPE = 1;
+var MEASTYPES = '1,6';
 
 // Set number of days to get measurements.
 var DAYS = 30;
@@ -36,7 +36,7 @@ function run() {
       },
       payload: {
         action: 'getmeas',
-        meastype: meastype,
+        meastypes: MEASTYPES,
         category: 1,
         startdate: startdate,
         enddate: enddate
