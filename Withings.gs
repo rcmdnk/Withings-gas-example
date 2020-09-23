@@ -44,9 +44,8 @@ function run() {
     }
     var response = UrlFetchApp.fetch(url, options);
     var result = JSON.parse(response.getContentText());
-//    Logger.log(JSON.stringify(result, null, 2));
-var ssNew = SpreadsheetApp.getActiveSheet();
-Logger.log(ssNew.getName());  } else {
+    Logger.log(JSON.stringify(result, null, 2));
+  } else {
     var authorizationUrl = service.getAuthorizationUrl();
     Logger.log('Open the following URL and re-run the script: %s',
         authorizationUrl);
