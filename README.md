@@ -7,7 +7,7 @@ Google App Script example for Withings API using [gsuitedevs/apps-script-oauth2]
 * Set CLIENT_ID and CLIENT_SECRET
     * Make sure you have a [Withings account](https://account.withings.com/connectionuser/account_create).
     * Register as [Withings API partner here](https://account.withings.com/partner/add_oauth2).
-        * callback function should be like: https://script.google.com/macros/d/<SCRIPT_ID>/usercallback
+        * callback function should be like: `https://script.google.com/macros/d/<SCRIPT_ID>/usercallback`
         * `SCRIPT_ID` is found in the menu: File -> Project properties -> Script Id 
     * Get client id and client (consumer) secret.
 
