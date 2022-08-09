@@ -1,8 +1,8 @@
 # Withings-gas-example
-Google App Script example for Withings API using [gsuitedevs/apps-script-oauth2](https://github.com/gsuitedevs/apps-script-oauth2).
+Google Apps Script example for Withings API using [gsuitedevs/apps-script-oauth2](https://github.com/gsuitedevs/apps-script-oauth2).
 
 ## Preparation
-* Make new [Google App Script project](https://script.google.com/home).
+* Make new [Google Apps Script project](https://script.google.com/home).
 * Make new script named like `Withings` and copy and paste [Withings.gs](https://github.com/rcmdnk/Withings-gas-example/blob/main/Withings.gs) contents.
 * Set CLIENT_ID and CLIENT_SECRET
     * Make sure you have a [Withings account](https://account.withings.com/connectionuser/account_create).
